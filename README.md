@@ -42,3 +42,7 @@ After this, we specify the wave form for each photon by taking $$y=SER(V_0, t-t_
 Later, we save the data in ccs such that the components of the form $$ccs\[:,2\ jj\]$$ will be 1 if the wave form of the $jj$-th photon is increasing and 0 if it is not. Analogously, the components of the form $$ccs\[:,2\ jj+1\]$$ will be 1 if the wave form of the $jj$-th photon is decreasing and 0 if it is not.
 
 ## U Network for NuDot 
+
+### Remaining things to do
+* Change the Data function for it to take fake waveforms.
+* Test it
